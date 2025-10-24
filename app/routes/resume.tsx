@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { usePuterStore } from "~/lib/puter";
 import Summary from "~/components/Summary";
 import Details from "~/components/Details";
+import ATS from "~/components/ATS";
 
 export function meta({}: Route.MetaArgs) {
   return [
